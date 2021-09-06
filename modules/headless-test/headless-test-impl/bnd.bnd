@@ -1,0 +1,3 @@
+Bundle-Name: headless-test-impl
+Bundle-SymbolicName: com.liferay.headless.test.impl
+Bundle-Version: 1.0.0

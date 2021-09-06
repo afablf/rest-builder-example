@@ -1,0 +1,9 @@
+apiDir: "../headless-test-api/src/main/java"
+apiPackagePath: "com.liferay.headless.test"
+application:
+    baseURI: "/headless-test"
+    className: "HeadlessTestApplication"
+    name: "HeadlessTest"
+author: "me"
+clientDir: "../headless-test-client/src/main/java"
+testDir: "../headless-test-test/src/testIntegration/java"

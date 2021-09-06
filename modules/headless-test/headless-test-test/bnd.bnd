@@ -1,0 +1,4 @@
+Bundle-Name: headless-test-test
+Bundle-SymbolicName: com.liferay.headless.test.test
+Bundle-Version: 1.0.0
+-includeresource: com.liferay.headless.test.client.jar=../headless-test-client/build/libs/com.liferay.headless.test.client-1.0.0.jar;lib:=true
