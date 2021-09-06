@@ -245,14 +245,18 @@ http://localhost:8080/o/headless-test/v1.0/
 
 Or more generally:
 
-http://localhost:8080/o/[application class name]/[OpenAPI version]/
+http://localhost:8080/o/[application_class_name]/[OpenAPI_version]/
 
 We can also execute jaxrs:check in the OSGi console (GoGo Shell) to see all the JAX-RS endpoints.
 
 When everything is ready, we might want to consider publishing our HeadlessTest API to Swaggerhub so others can consume it. We can use the following URL pattern for that:
-http://localhost:8080/o/[application name]/[application version]/openapi.yaml
+
+http://localhost:8080/o/[application_name]/[application_version]/openapi.yaml
+
 The URL for the our example above, therefore, would be:
+
 http://localhost:8080/o/headless-test/v1.0/openapi.yaml
+
 This URL has the content of rest-openapi.yaml plus the classes that REST Builder generated for us. [CHECK THIS LATER]
  
 **CHECK THIS LATER**: set false to generateBatch endpoints? (Reference n. 3)
