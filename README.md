@@ -198,7 +198,7 @@ paths:
             description: ""
       tags: ["Entity"]
 ```      
-### Note: we can disable GraphQL generation by adding generateGraphQL: false to our rest-config.yaml (generateREST controls the generation of the REST endpoints).
+**Note**: we can disable GraphQL generation by adding generateGraphQL: false to our rest-config.yaml (generateREST controls the generation of the REST endpoints).
 
 # Implement the Business Logic
 As mentioned previously, the *-api submodule contains the interfaces for our resources and the POJOs of our schemas. The generated EntityResource is an interface which contains generated methods we have defined in the OpenAPI profile. In *-impl submodule, REST builder generates EntityResourceImpl, which is located beside the base class BaseEntityResourceImpl. The EntityResourceImpl is the one where we implement our business logic for each service with new methods, by overriding the base class implementation and returning our code.
