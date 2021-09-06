@@ -1,3 +1,5 @@
+**This example was based on the steps described in the documentation below**
+
 # Implementing APIs with REST Builder
 **Alexandre de Souza Jr.**
 **September 3rd, 2021.** https://github.com/alexandresjunior
